@@ -21,6 +21,8 @@ Intro to React : https://reactjs.org/tutorial/tutorial.html <br>
 
 ## Create new react app
 
+Follow [this](node.md) instructions before run below command
+
 `
 yarn create react-app myapp
 `
