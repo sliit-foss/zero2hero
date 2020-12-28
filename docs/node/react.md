@@ -18,3 +18,9 @@ Intro to React : https://reactjs.org/tutorial/tutorial.html <br>
 
 - create a to do list app with react & material UI https://my-vue-todos.netlify.app/
 - Save data to local storage and load on page reload
+
+## Create new react app
+
+`
+yarn create react-app myapp
+`
