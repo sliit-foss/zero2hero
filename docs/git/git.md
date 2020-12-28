@@ -74,7 +74,17 @@ Now both your local repo and online repo have been connected.</br></br> ![](imag
 1. Now that you've created a local repo/ cloned one and have made some changes you'll do what everyone needs doing which is to stage the changes you made. Here's how that goes. 
 2. Once you've made the changes, (in our case add an html file) we need to tell our local repo *"Hey look we've added these files and we want you to know about it"* by using the command: ```git add {whatever-new-file-you-just-added.html}``` obviously this gets tiresome if you add a bunch of files because you can't possibly list them all out right? So we use the command ```git add .``` where the '.' means everything. 
 3. You wouldn't see anything as it would just quitely add everything so do a quick ```git status``` to see what's going on. Here's what that looks: </br></br>![](images/git-status.JPG) <br/> <small>As you can see git has recognized that we have added a new file.</small>
-4.
+4. These are what you call "Unstaged Changes" if we want them to be "Staged Changes" we need to do the party trick, which is to commit. Do so by typing: </br> </br> ```git commit -m "Added a new file"``` </br></br> "-m" signifies the "Commit Message", you can really add whatever you want as a Commit Message but its best practice to make it meaningful. Since our only change is adding a new file, I have said so in the Commit Message.</br></br>  ![](images/git-first-commit.JPG) <br/> <small>This is what it should resemble.</small>
+5. We're not done yet! Although we've made a commit in our local repository nothing has updated in our GitHub repository. So we should use the command: </br> ```git push -u origin master``` 
+</br> You only need to add the **-u** the first ever time you do a Github Repository push so afterwards you won't need to use it. It should look like this: </br> </br>![](images/git-push-repo.JPG)
+6. Now if you rush over to your Repository on Github it should look like this: </br></br>![](images/git-push-result.JPG) you will see that you have added a new file.
+
+#### 5) Finale!
+
+Now you've learnt how to setup a local repo,  connect your GitHub repo to your local repo, do your first commit, and push the changes! That's basically all of what you need to know in the beginning to get you started. Looking forward to seeing your work being published on Github! </br> </br>![](images/finale.gif)
+
+
+
 
 
 
