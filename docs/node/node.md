@@ -28,3 +28,15 @@ npm install -g create-react-app
 `
 npm install -g @angular/cli
 `
+
+## How to start development of any JavaScript App?
+
+Clone the repo what will you gonna contribute then run below commands inside the repo
+
+`
+yarn install
+`
+<br>
+`
+yarn start
+`
