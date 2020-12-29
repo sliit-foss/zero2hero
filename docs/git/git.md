@@ -81,7 +81,7 @@ Now both your local repo and online repo have been connected.</br></br> ![](imag
 
 #### 5) Finale!
 
-Now you've learnt how to setup a local repo,  connect your GitHub repo to your local repo, do your first commit, and push the changes! That's basically all of what you need to know in the beginning to get you started. Looking forward to seeing your work being published on Github! </br> </br>![](images/finale.gif)
+Now you've learnt how to setup a local repo,  connect your GitHub repo to your local repo, do your first commit, and push the changes! That's basically all of what you need to know in the beginning to get you started. Looking forward to seeing your work being published on Github! </br></br> ![](images/finale.gif)
 
 
 
