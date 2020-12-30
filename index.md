@@ -7,3 +7,4 @@
   - [Node](./docs/node/node.md)
     - [React](./docs/node/react.md)
     - [Angular](./docs/node/angular.md)
+- [VS Code](./docs/vscode.md)   
