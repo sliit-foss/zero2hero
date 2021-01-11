@@ -4,7 +4,7 @@
 
 ## 2. [VS Code](./docs/vscode.md)
 
-__If you know HTML, Bootstrap, Js__
+__If you _know_ HTML, Bootstrap, Js__
 
 ## 3. [Node](./docs/node/node.md)
 
@@ -18,8 +18,8 @@ __If you know HTML, Bootstrap, Js__
 
 < TEXT HERE >
 
-__If you don't know HTML, Bootstrap, Js__
+__If you _don't know_ HTML, Bootstrap, Js__
 
-[HTML Tutorial](https://www.w3schools.com/html/) <br/>
-[Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) <br/>
-[JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp) <br/>
+- [HTML Tutorial](https://www.w3schools.com/html/) <br/>
+- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) <br/>
+- [JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp) <br/>
