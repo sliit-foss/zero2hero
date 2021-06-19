@@ -1,5 +1,9 @@
 # Zero 2 Hero
 
+<p align="center">
+<img alt="movie-box-logo" src="assets/img/guide.png" width="400">
+</p>
+
 ## 1. [Git](./docs/git/git.md)
 
 ## 2. [VS Code](./docs/vscode.md)
