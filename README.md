@@ -8,15 +8,15 @@ __If you _know_ HTML, Bootstrap, Js__
 
 ## 3. [Node](./docs/node/node.md)
 
-### TODO: What's node environment???
+<!-- ### TODO: What's node environment??? -->
 
-< TEXT HERE >
+<!-- < TEXT HERE > -->
 
 ## 4. [React](./docs/node/react.md) / [Angular](./docs/node/angular.md)
 
-### TODO: Why React/Angular???
+<!-- ### TODO: Why React/Angular???
 
-< TEXT HERE >
+< TEXT HERE > -->
 
 __If you _don't know_ HTML, Bootstrap, Js__
 
