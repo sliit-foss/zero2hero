@@ -14,7 +14,7 @@ __If you _know_ HTML, Bootstrap, Js__
 
 ## 4. [React](./docs/node/react.md) / [Angular](./docs/node/angular.md)
 
-#### Why React?
+### Why React?
 
 Now, the main question arises in front of us is why one should use React. There are so many open-source platforms for making the front-end web application development easier. Let us take a quick look on the benefits of React over other competitive technologies or frameworks.
 
