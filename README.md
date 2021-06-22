@@ -42,6 +42,29 @@ React does not offer any concept of a built-in container for dependency. You can
  
 One of the things that make React so great is how convenient it is to test React-based apps. React views can be treated as functions of the state. As a result, React developers can work closely with testing engineers to manipulate any states moved across React View
 
+### Why Angular?
+
+Angular is an open-source front-end framework developed by Google for creating dynamic, modern web apps.
+
+#### 1.Supported by Google
+
+Google is one of the biggest firms in technology and the talented pool of Google developers are offering Long-Term Support (LTS) for Angular to up-scale enterprise Angular applications development.
+Declarative UI
+The Angular framework leverages HTML. HTML is also a declarative and intuitive language.
+
+#### 2.POJO
+
+With Angular, you don’t need any additional getter and setter functions. Since, every object it uses is POJO (Plain Old JavaScript Object), which enables object manipulation by providing all the conventional JavaScript functionalities. You can remove or add properties from the objects, while also looping over these objects when required.
+
+#### 3.Reusability
+
+The component-based structure of Angular makes the components highly reusable across the app. You can build the UI (User Interface) with moving parts, while also ensuring a smooth development process for developers.
+
+ #### 4.Automatic synchronization with two-way data binding
+
+Unlike some of the other frameworks that offer one-way data binding, the Angular framework provides two-way data binding. It seamlessly synchronizes the data between Model as well as View. Hence, when data is modified or changed, these two components get updated automatically in real-time.
+
+Other advantages of the Angular framework are easy to access information, greater data security, ease of maintenance and easy testing and code consistency.
 
 __If you _don't know_ HTML, Bootstrap, Js__
 
