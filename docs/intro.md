@@ -6,19 +6,19 @@ sidebar_position: 1
 
 ![movie-box-logo](assets/img/guide.png)
 
-## 1. [Git](./docs/git/git.md)
+## 1. [Git](./git/git.md)
 
-## 2. [VS Code](./docs/vscode.md)
+## 2. [VS Code](vscode)
 
 __If you _know_ HTML, Bootstrap, Js__
 
-## 3. [Node](./docs/node/node.md)
+## 3. [Node](./node/node.md)
 
 <!-- ### TODO: What's node environment??? -->
 
 <!-- < TEXT HERE > -->
 
-## 4. [React](./docs/node/react.md) / [Angular](./docs/node/angular.md)
+## 4. [React](./node/react.md) / [Angular](./node/angular.md)
 
 <!-- ### TODO: Why React/Angular???
 
