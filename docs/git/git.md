@@ -21,8 +21,7 @@ Linux: https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md <br/
 
 #### 2) Initialization
 
-Go to your ```
-C:/users/{whatever-your-username-is}``` <br />
+Go to your ```C:/users/{whatever-your-username-is}``` <br />
 <small>Or really wherever you want to :/ </small><br/><br />
 Right Click and you should see this: <br /> <br />
 ![](images/git-rightclick-windows.jpg) <br />
@@ -33,13 +32,13 @@ Open up Git Bash by clicking on it and you should see this particular looking co
 
 Type in these commands to setup the username: <br/>
 ```git config --global user.name "{your-username}"``` <br />
-<small>(For very obvious reasons I don't need to say outloud you should substitute {your-username} for your username)</small>
+<small>For very obvious reasons I don't need to say outloud you should substitute `your-username` for your username</small>
 
 Type in these commands to setup the email id: <br/>
 ```git config --global user.email "{your-email}"``` <br />
 <small>(Use the email you used to register your GitHub account)</small>
 
-Now there are other tricks and tips you can do to setup your environment in a million ways like change your ui color but that won't be written here, here's a cheat sheet if you like that sort of thing: https://training.github.com/downloads/github-git-cheat-sheet/
+Now there are other tricks and tips you can do to setup your environment in a million ways like change your ui color but that won't be written here, here's a cheat sheet if you like that sort of thing https://training.github.com/downloads/github-git-cheat-sheet
 
 <small>There's really two ways you can go from here on out, if you want to create your own repo from the get-go (3a) or if you want to clone another person's work and work on top of it (3b) if you want to learn how to add files and directly commit and push skip both parts of 3.</small>
 
@@ -83,13 +82,10 @@ Now both your local repo and online repo have been connected.<br/><br/> ![](imag
 <br/> You only need to add the **-u** the first ever time you do a Github Repository push so afterwards you won't need to use it. It should look like this: <br/> <br/>![](images/git-push-repo.JPG)
 6. Now if you rush over to your Repository on Github it should look like this: <br/><br/>![](images/git-push-result.JPG) you will see that you have added a new file.
 
+
 #### 5) Finale!
 
 Now you've learnt how to setup a local repo,  connect your GitHub repo to your local repo, do your first commit, and push the changes! That's basically all of what you need to know in the beginning to get you started. Looking forward to seeing your work being published on Github! <br/> ![](images/finale.gif)
-
-
-
-
 
 
 ## Workflow
