@@ -1,29 +1,33 @@
-# Zero 2 Hero
+# Website
 
-<p align="center">
-<img alt="movie-box-logo" src="assets/img/guide.png" width="400">
-</p>
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## 1. [Git](./docs/git/git.md)
+### Installation
 
-## 2. [VS Code](./docs/vscode.md)
+```
+$ yarn
+```
 
-__If you _know_ HTML, Bootstrap, Js__
+### Local Development
 
-## 3. [Node](./docs/node/node.md)
+```
+$ yarn start
+```
 
-<!-- ### TODO: What's node environment??? -->
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-<!-- < TEXT HERE > -->
+### Build
 
-## 4. [React](./docs/node/react.md) / [Angular](./docs/node/angular.md)
+```
+$ yarn build
+```
 
-<!-- ### TODO: Why React/Angular???
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-< TEXT HERE > -->
+### Deployment
 
-__If you _don't know_ HTML, Bootstrap, Js__
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
 
-- [HTML Tutorial](https://www.w3schools.com/html/) <br/>
-- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) <br/>
-- [JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp) <br/>
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
