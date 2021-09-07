@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzero_2_hero=self.webpackChunkzero_2_hero||[]).push([[154],{4144:function(e){e.exports=JSON.parse('{"allTagsPath":"/zero2hero/blog/tags","slug":"/zero2hero/blog/tags/facebook","name":"facebook","count":1,"permalink":"/zero2hero/blog/tags/facebook"}')}}]);
