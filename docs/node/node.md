@@ -7,10 +7,18 @@ sidebar_position: 1
 Node.js : [https://nodejs.org/en/](https://nodejs.org/en/) <br/>
 
 - [https://web.dev/promises/](https://web.dev/promises/)
-- [https://www.youtube.com/watch?v=8aGhZQkoFbQ](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [What is NPM, and why do we need it? (beginners guide)](https://www.youtube.com/watch?v=P3aKRdUyr0s)
 
-[What is a RESTful API? | Creating a REST API with Node.js](https://www.youtube.com/watch?v=0oXYLzuucwE&list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
+<iframe width="100%" height="380" src="https://www.youtube.com/embed/8aGhZQkoFbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/><br/><br/>
+
+- What is NPM, and why do we need it? (beginners guide)
+
+<iframe width="100%" height="380" src="https://www.youtube.com/embed/P3aKRdUyr0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/><br/><br/>
+
+- What is a RESTful API? | Creating a REST API with Node.js
+
+<iframe width="100%" height="380" src="https://www.youtube.com/embed/0oXYLzuucwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Install Node and npm
 
@@ -18,21 +26,15 @@ First of all download LST version of node from [here](https://nodejs.org/en/) an
 
 ## Install Yarn
 
-`
-npm install -g yarn
-`
+`npm install -g yarn`
 
 ## Install Create React App
 
-`
-npm install -g create-react-app
-`
+`npm install -g create-react-app`
 
-## Install Angular CLI 
+## Install Angular CLI
 
-`
-npm install -g @angular/cli
-`
+`npm install -g @angular/cli`
 
 ## How to start development of any JavaScript App?
 
