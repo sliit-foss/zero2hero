@@ -26,30 +26,30 @@ First of all download LST version of node from [here](https://nodejs.org/en/) an
 
 ## Install Yarn
 
-`
+```bash
 npm install -g yarn
-`
+```
 
 ## Install Create React App
 
-`
+```bash
 npm install -g create-react-app
-`
+```
 
 ## Install Angular CLI
 
-`
+```bash
 npm install -g @angular/cli
-`
+```
 
 ## How to start development of any JavaScript App?
 
 Clone the repo what will you gonna contribute then run below commands inside the repo
 
-`
+```bash
 yarn install
-`
+```
 
-`
+```bash
 yarn start
-`
+```

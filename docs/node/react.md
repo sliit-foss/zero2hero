@@ -27,7 +27,9 @@ Intro to React : https://reactjs.org/tutorial/tutorial.html <br/>
 
 Follow [this](node.md) instructions before run below command
 
-`yarn create react-app myapp`
+```bash
+yarn create react-app myapp
+```
 
 ## Why React?
 

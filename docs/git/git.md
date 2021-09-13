@@ -21,7 +21,10 @@ Linux: https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md <br/
 
 #### 2) Initialization
 
-Go to your ```C:/users/{whatever-your-username-is}``` <br />
+Go to your 
+```
+C:/users/{whatever-your-username-is}
+``` 
 <small>Or really wherever you want to :/ </small><br/><br />
 Right Click and you should see this: <br /> <br />
 ![](images/git-rightclick-windows.jpg) <br />
@@ -31,11 +34,19 @@ Open up Git Bash by clicking on it and you should see this particular looking co
 ![](images/git-bash-initial.JPG)
 
 Type in these commands to setup the username: <br/>
-```git config --global user.name "{your-username}"``` <br />
+
+```bash
+git config --global user.name "{your-username}"
+``` 
+
 <small>For very obvious reasons I don't need to say outloud you should substitute `your-username` for your username</small>
 
 Type in these commands to setup the email id: <br/>
-```git config --global user.email "{your-email}"``` <br />
+
+```bash
+git config --global user.email "{your-email}"
+```
+
 <small>(Use the email you used to register your GitHub account)</small>
 
 Now there are other tricks and tips you can do to setup your environment in a million ways like change your ui color but that won't be written here, here's a cheat sheet if you like that sort of thing https://training.github.com/downloads/github-git-cheat-sheet
@@ -49,7 +60,7 @@ Now there are other tricks and tips you can do to setup your environment in a mi
 3. Let's add some dummy "code" (If you can call HTML5 code that is) to it.
 4. Now Right Click inside the folder and click on Git Bash.
 5. It should look like this, and you should see the folder name with ~/ <br/><br/>  ![](images/git-first-git-bash-inside.JPG)
-6. Type in the command:<br /> ```git init``` <br /> What this does is that it initializes a GitHub Repository on your local machine. If everything went alright you should get something similar to this: <br/> ```Initialized empty Git repository in C:/Users/sahas/git-for-dummies/.git/ ```
+6. Type in the command:<br /> ``` git init ``` <br /> What this does is that it initializes a GitHub Repository on your local machine. If everything went alright you should get something similar to this: <br/> ```Initialized empty Git repository in C:/Users/sahas/git-for-dummies/.git/ ```
 7. A new file should have popped up with the .git extension, if you can't see it try turning on your **Reveal hidden files** option on in View <br /> <br /> ![](images/git-init-first-run.JPG) <br /> <br />
 <small>Now you're probably thinking: *"Well this is all amazing and all but how do I put these stuff on the actual Github.com website so I can show off my work to everyone"* Well let's get right to it.</small>
 8. Setting up a Repo on GitHub.com: <br /> <br />
