@@ -6,6 +6,6 @@ sidebar_position: 3
 
 Follow [this](node.md) instructions before run below command
 
-`
+```bash
 ng new my-dream-app
-`
+```
