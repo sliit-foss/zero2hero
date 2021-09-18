@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkzero_2_hero=self.webpackChunkzero_2_hero||[]).push([[83],{7387:function(e){e.exports=JSON.parse('{"allTagsPath":"/zero2hero/blog/tags","slug":"/zero2hero/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/zero2hero/blog/tags/docusaurus"}')}}]);
