@@ -12,14 +12,12 @@ Windows : https://git-scm.com/downloads <br/>
 Mac : https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md <br/>
 Linux: https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md <br/>
 
-### Setting up on Windows
-
-#### 1) Downloading the Executable
+### 1) Downloading the Executable
 
 ![By Clicking the link above download the .exe file](images/git-installation.JPG)<br/>
 <small>Just bash the Next button and you should be good, the git installer already has the recommended settings ticked (Hopefully)</small>
 
-#### 2) Initialization
+### 2) Initialization
 
 Go to your 
 ```
@@ -53,7 +51,7 @@ Now there are other tricks and tips you can do to setup your environment in a mi
 
 <small>There's really two ways you can go from here on out, if you want to create your own repo from the get-go (3a) or if you want to clone another person's work and work on top of it (3b) if you want to learn how to add files and directly commit and push skip both parts of 3.</small>
 
-#### 3a) Creating a repository from scratch
+### 3a) Creating a repository from scratch
 
 1. Create new folder - <small>Fairly obvious, wherever you want it to be, whatever you want to call it </small>
 2. Create a html file inside in the folder - <small>Let's call it index.html, but it really could be anything but for ease of understanding we'll go with this, if these two simple steps went alright you'll have something like this:<br/><br/> </small> ![](images/git-first-file.JPG)
@@ -73,7 +71,7 @@ On the top right hand side once you open up GitHub.com and log in is a plus butt
 12. Now let's type in this command <br/> ```git remote add origin {whatever you copied from the website}``` <br /> <small>Hint: Ctrl+V doesn't work inside the GitBash so just right click after you type the first bit and click on the Paste option</small> <br/>
 Now both your local repo and online repo have been connected.<br/><br/> ![](images/fusion.gif) <br />
 
-#### 3b) Working on an already existing repository / Cloning
+### 3b) Working on an already existing repository / Cloning
 
 1. First go to which Repository you want to clone and work on, we'll use the initial one I just created for the ease of access before you clone its good practice to **Fork it** over to your account, by doing that you basically create a copy of the repository to your name which you have all the rights in the world to work with. So if you don't know what to Fork go to https://github.com/SahasR/git-for-dummies and click on the **Fork**. <br/> If you're having trouble finding it, it's on the top right hand side of the page. The procedure to fork it is fairly straightforward. 
 2. After that you should see a page that is identical to what you started with but if you look at the top left handside of the page you will see ```{Your username}/git-for-dummies```. This means you have created an identical version of the repo under your name. 
@@ -83,7 +81,7 @@ Now both your local repo and online repo have been connected.<br/><br/> ![](imag
 6. Now you've succesfully cloned a repo and we'll create an index.html file in it with some simple html tags like this: <br/><br/>![](images/git-init-first-run.JPG)
 7. If you type the command ```git remote -v``` you'll also be able to see that that your local repo that you cloned from is already connected up with the one you got down from Github. Likewise: <br/><br/>![](images/git-remote-v.JPG)
 
-#### 4) Commiting
+### 4) Commiting
 
 1. Now that you've created a local repo/ cloned one and have made some changes you'll do what everyone needs doing which is to stage the changes you made. Here's how that goes. 
 2. Once you've made the changes, (in our case add an html file) we need to tell our local repo *"Hey look we've added these files and we want you to know about it"* by using the command: ```git add {whatever-new-file-you-just-added.html}``` obviously this gets tiresome if you add a bunch of files because you can't possibly list them all out right? So we use the command ```git add .``` where the '.' means everything. 
@@ -94,7 +92,7 @@ Now both your local repo and online repo have been connected.<br/><br/> ![](imag
 6. Now if you rush over to your Repository on Github it should look like this: <br/><br/>![](images/git-push-result.JPG) you will see that you have added a new file.
 
 
-#### 5) Finale!
+### 5) Finale!
 
 Now you've learnt how to setup a local repo,  connect your GitHub repo to your local repo, do your first commit, and push the changes! That's basically all of what you need to know in the beginning to get you started. Looking forward to seeing your work being published on Github! <br/> ![](images/finale.gif)
 
