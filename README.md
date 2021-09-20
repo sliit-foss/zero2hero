@@ -1,6 +1,7 @@
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[Figma Design URL](https://www.figma.com/file/CWqQvLeeEyqhyTr1a6mmsf/Zero-to-Hero?node-id=0%3A1)
 
 ### Installation
 
