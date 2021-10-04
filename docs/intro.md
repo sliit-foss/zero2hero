@@ -30,13 +30,6 @@ __If you _don't know_ HTML, Bootstrap, Js__
 - [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) <br/>
 - [JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp) <br/>
 
-## 5. [Machine Learning](./machine-learning/coco-ssd.md)
-
-<!-- ### TODO: 
-
-< TEXT HERE > -->
-
-__If you _don't know_ HTML, Bootstrap, Js__
 
 # Tutorial Intro
 
