@@ -22,7 +22,7 @@ is one of the official object detection models ported to tensorflow.js.
 It can take input as any browser-based image elements (```<img>```, ```<video>```, ```<canvas>``` elements, for example) and returns an array of bounding boxes with class name and confidence level (Fig 4).
 
 
-![img_1.png](img_1.png)
+![img_1.png](../assets/img/machine-learning/img_1.png)
 
 
 As the returns we can see that there are bbox, class and score.
@@ -246,7 +246,7 @@ This code will set the color and line width of the rectangle and display it.
 
 ## Final
 
-![img_2.png](img_2.png)
+![img_2.png](../assets/img/machine-learning/img_2.png)
 
 In next part let's discuss Types of machine learning models and the theories behind them with implementing them.
 

@@ -20,11 +20,11 @@ __If you _know_ HTML, Bootstrap, Js__
 
 ## 4. [React](./node/react.md) / [Angular](./node/angular.md)
 
-<!-- ### TODO: Why React/Angular???
+*<!-- ### TODO: Why React/Angular???
 
 < TEXT HERE > -->
 
-__If you _don't know_ HTML, Bootstrap, Js__
+__*If you _don't know_ HTML, Bootstrap, Js__
 
 - [HTML Tutorial](https://www.w3schools.com/html/) <br/>
 - [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) <br/>
