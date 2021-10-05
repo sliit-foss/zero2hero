@@ -1,0 +1,21 @@
+version: "3"
+services:
+  proxy-server:
+    build: ./nginx
+    ports:
+      - 80:80
+  app:
+    build: .
+    volumes:
+      - ./public:/opt/app/public
+      - ./routes:/opt/app/routes
+      - ./views:/opt/app/views
+  db:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "root"
+      MONGO_INITDB_ROOT_PASSWORD: "123456"
+    volumes:
+      - "my-mongo-volume:/data/db"
+volumes:
+  my-mongo-volume:
