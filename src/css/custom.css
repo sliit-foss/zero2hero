@@ -18,6 +18,10 @@
   --ifm-code-font-size: 95%;
 }
 
+.footer--dark {
+    --ifm-footer-background-color: #242526;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
