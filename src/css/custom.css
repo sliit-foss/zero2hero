@@ -16,10 +16,11 @@
   --ifm-font-color-base-inverse: #000000;
   --ifm-footer-background-color: #f3f3f3 !important;
   --ifm-code-font-size: 95%;
+  --hero-banner-background-color: #f3f3f3;
 }
 
 .footer--dark {
-    --ifm-footer-background-color: #242526;
+  --ifm-footer-background-color: #242526;
 }
 
 .docusaurus-highlight-code-line {
@@ -29,9 +30,7 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+  --hero-banner-background-color: #e1d1ff;
 }
-
-
-
