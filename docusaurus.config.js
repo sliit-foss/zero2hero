@@ -9,7 +9,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
     tagline:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     url: "https://zero2hero.sliitfoss.org/",
-    baseUrl: "/",
+    baseUrl: "/zero2hero/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.png",
