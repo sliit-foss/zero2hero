@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # GitHub Actions
 
 GitHub Actions help to automate tasks within the software development life cycle. GitHub Actions are event-driven, meaning they can be triggered after a certain specified event.
@@ -21,15 +25,14 @@ An event is any activity that triggers a workflow. For example: raising a PR, me
 3. Jobs
 A job is a set of steps that execute in the same runner. By default, a workflow with multiple jobs will run those jobs in parallel. You can also configure a workflow to run jobs sequentially.
 For jobs to run sequentially use:
-```
+```yaml
 requires: <job name>    
 # replace <job name> with the job name that needs to run completely before the current job
 ```
 
-
 4. Steps:
  A step is an individual task that can run in a job. A step can be either an action or a shell command. 
-```
+```yaml
  For eg:   
   steps:
       - uses: actions/checkout@v2               # action
@@ -45,10 +48,8 @@ A runner is a server that has the GitHub Actions runner application installed. Y
 **NOTE** : GitHub Actions uses YAML syntax to define the events, jobs, and steps.
  These `YAML` files are stored in your code repository, in a directory called `.github/workflows.`
 
-
-
 ## Learning YAML Syntax
-```
+```yaml
 name:   learn-github-actions                    # name of the workflow
 on:  [push]                                     # specify event here like push / pull request etc
 jobs:                                           # specify series of jobs to be performed
