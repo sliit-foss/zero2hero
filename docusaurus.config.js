@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
   module.exports = {
     title: "Zero2Hero",
     tagline:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Zero2Hero is a community effect to bring knowledge into one place that helps newbie developers to learn from the ground to up.",
     url: "https://zero2hero.sliitfoss.org/",
     baseUrl: "/zero2hero/",
     onBrokenLinks: "throw",
