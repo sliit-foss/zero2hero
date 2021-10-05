@@ -29,10 +29,10 @@ If you are making use of C#, one of the high-quality ORMs accessible out there i
 
 ## List of Popular Node.js ORMs :
 
-1.**Prism**
-2. **Sequelize**
-3. **TypeORM**
-4. **Mongoose**
+1. <a href="https://prismjs.com/" target="_top">Prism</a>
+2. <a href="https://sequelize.org/" target="_top">Sequelize</a>
+3. <a href="https://typeorm.io/#/" target="_top">TypeORM</a>
+4. <a href="https://mongoosejs.com/" target="_top">Mongoose</a>
 
 ## Pros of the use of an ORM:
 
