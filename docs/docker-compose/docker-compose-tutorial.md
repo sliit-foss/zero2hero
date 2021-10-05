@@ -1,4 +1,5 @@
 ## Writing a docker-compose file
+**To get code for this tutorial [click here](docker-compose-example.yml)
 Let’s create a file called “docker-compose.yml” at the root folder. As you can see, this is a YAML file, so the indentation is important. Let’s start writing our docker-compose file by setting the version:
 `version: "3"`
 There are different docker compose versions. All of them, with different features and characteristics. Check the official documentation to know which feature you can use and which feature you can’t. The version “3” has full compatibility with all the syntax we use in this example so that we will stick with this one.
