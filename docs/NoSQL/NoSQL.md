@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # What is NoSQL? 
 
 NoSQL Database is a non-social information the executives framework that doesn't need a decent outline. Stay away from alternate ways and it's not difficult to climb. The fundamental objective of utilizing a NoSQL information base is to furnish conveyed information stores with gigantic information stockpiling prerequisites. NoSQL is utilized for huge information and continuous web applications. Organizations like Twitter, Facebook, and Google, for instance, gather terabytes of client information consistently carl strozz presented the NoSQL idea in 1998. 
