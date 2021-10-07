@@ -23,7 +23,7 @@ __If you _know_ HTML, Bootstrap, Js__
 <!-- ### TODO: Why React/Angular???
 
 < TEXT HERE > -->
-## 5. [Docker-Compose](./docker-compose/docker-compose-tutorial.md)
+## 5. [Docker-Compose](./docker/docker-compose.md)
 
 __If you _don't know_ HTML, Bootstrap, Js__
 
