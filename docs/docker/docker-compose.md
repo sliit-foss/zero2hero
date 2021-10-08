@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Writing a docker-compose file
 **_To get code for this tutorial [click here](docker-compose-example.yml)_**
