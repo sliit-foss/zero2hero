@@ -3,7 +3,7 @@ sidebar_position: 10
 ---
 # What is Hexagonal Architecture?
 
-Hexagonal engineering is a model or example for planning programming applications. The thought behind this is to put intricate details on the edges of your plan. (Deeply) of your application from outside concerns. On the off chance that you have information sources and yields on the edge, you can trade your regulators without changing the center code. 
+Hexagonal engineering is a model or example for planning programming applications. The thought behind this is to put intricate details on the edges of your plan. Deeply of your application from outside concerns. On the off chance that you have information sources and yields on the edge, you can trade your regulators without changing the center code. 
 
 A major benefit of hexagonal engineering is that your code is simpler to test. You can exchange fakes for tests, which makes the tests more steady. The hexagonal design was proposed by Alistair Cockburn in 2005. 
 
@@ -21,16 +21,14 @@ There are two kinds of connectors. Inbound ports are utilized by essential conne
 
 The simplicity of upkeep: Since the fundamental rationale of the application (classes and articles) is segregated from the rest of the world and inexactly coupled, it is simpler to keep up with. It's simpler to add some new provisions to one of the layers without contacting the other. 
 
-Simple to adjust to new changes: Since all levels are autonomous and 
+Simple to adjust to new changes: Since all levels are autonomous 
 
-we need to add or supplant another data set, we just need to supplant or add the connectors of the information base without changing the area rationale of any application. 
+We need to add or supplant another data set, we just need to supplant or add the connectors of the information base without changing the area rationale of any application. 
 
 Simple to Test - Testing turns out to be simple. We can compose the experiments for each layer essentially by mirroring the ports with the fake connectors. 
 
 ## Conclusion
 
-There are numerous approaches to carry out hexagonal engineering. I've shown you a direct methodology 
-
-that gives a simple to-utilize, order-driven 
+There are numerous approaches to carry out hexagonal engineering. I've shown you a direct methodology that gives a simple to-utilize,and order-driven.
 
 Programming interface for the hexagon. It lessens the number of interfaces you need for your sending. Furthermore, it prompts an unadulterated area model.
