@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Forms with React Hooks
 
-![img.png](img.png)
+![img.png](../assets/img/React/Forms-with-React-Hooks/img.png)
 
 ## React Hooks
 
@@ -101,7 +101,7 @@ And the completed Select component with all its properties set to display and up
 
 And the Select component rendered like this:
 
-![img_1.png](img_1.png) 
+![img_1.png](../assets/img/React/Forms-with-React-Hooks/img_1.png) 
 
 _The option to which `activeScore` is initialized to is displayed initially_
 
@@ -133,7 +133,7 @@ And the RadioGroup component will make use of the state holder as;
 
 Each `<FormControlLabel>` tag is an option in the radio group and has a specific value. In this case, the radio group initially shows the `<FormControlLabel>` option with a value of 4 as being selected, since `alertScore` was initialized to 4.
 
-![img_2.png](img_2.png)
+![img_2.png](../assets/img/React/Forms-with-React-Hooks/img_2.png)
 
 ## The Checkbox component
 
@@ -164,9 +164,13 @@ And used in the Checkbox component in the following way;
 
 To demonstrate how state is dynamically updated, let’s enable the submit button only when the check box is checked.
 
-![img_3.png](img_3.png)
+![img_3.png](../assets/img/React/Forms-with-React-Hooks/img_3.png)
 
-![img_4.png](img_4.png)
+![img_4.png](../assets/img/React/Forms-with-React-Hooks/img_4.png)
+
+This can be done easily by passing the `agree` state holder manipulated by the checkbox to the `disabled` property of the Button component. When `agree` is true, `disabled` should be false. the logical NOT operator ! is used with agree to get the logical complement (the opposite Boolean value) of `agree`.
 
 
+
+![img_5.png](../assets/img/React/Forms-with-React-Hooks/img_5.png)
 
