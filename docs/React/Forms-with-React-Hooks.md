@@ -20,7 +20,7 @@ So, to sum up, state stores the changing data of a component, and Hooks are used
 
 This would mean that Hooks are essential for interactive components.
 
-So let’s see how we could use react hooks to keep track of the changing state in a vital interactive web component, forms.
+So let’s see how we could use React hooks to keep track of the changing state in a vital interactive web component, forms.
 
 The form created will use components from [Material UI](https://mui.com/), and will take in user input in three ways, from a [select](https://mui.com/components/selects/), a group of [radio buttons](https://mui.com/components/radio-buttons/) and a [checkbox](https://mui.com/components/checkboxes/). And for the sake of an interesting example, we will be building a form that tries to match a breed of dog to a user’s personality. 🤭
 
@@ -76,9 +76,9 @@ onChange={}
 . . .
 ````
 
-So, to pass the de-structured array to each prop, the `value` property will receive `activeScore` since it holds the value selected by the user for active score. To ensure that the `activeScor`e will preserved when the page re-renders, the `onChange` property will receive `setActiveScore` because each time the user changes the value of Select, the new value will have to be updated in the `activeScore` state holder, and `setActiveScore` contains the reference to the function that does that.
+So, to pass the de-structured array to each prop, the `value` property will receive `activeScore` since it holds the value selected by the user for active score. To ensure that the `activeScor`e will preserve when the page re-renders, the `onChange` property will receive `setActiveScore` because each time the user changes the value of Select, the new value will have to be updated in the `activeScore` state holder, and `setActiveScore` contains the reference to the function that does that.
 
-But the each time the field is changed, an event object will be returned, which will contain the value of the `value` property of the `<MenuItem>` that the user has picked from the Select. This is the value that should be passed into `setActiveScore` and to extract this value, the `onChange` will be defined as 
+But each time the field is changed, an event object will be returned, which will contain the value of the `value` property of the `<MenuItem>` that the user has picked from the Select. This is the value that should be passed into `setActiveScore` and to extract this value, the `onChange` will be defined as 
 ```js
 (e) => setActiveScore(e.target.value)
 ``` 
@@ -149,8 +149,7 @@ And used in the Checkbox component in the following way;
 <FormControlLabel
     label={
         "I agree to not be offended by the results as this is just an " +
-        "example and not at all an accurate representation of me or the dog
-        😁"
+        "example and not at all an accurate representation of me or the dog 😁"
     }
     control={
         <Checkbox
@@ -162,7 +161,7 @@ And used in the Checkbox component in the following way;
 />
 ````
 
-To demonstrate how state is dynamically updated, let’s enable the submit button only when the check box is checked.
+To demonstrate how state is dynamically updated, let’s enable the submit button only when the checkbox is checked.
 
 ![img_3.png](../assets/img/React/Forms-with-React-Hooks/img_3.png)
 
@@ -170,7 +169,45 @@ To demonstrate how state is dynamically updated, let’s enable the submit butto
 
 This can be done easily by passing the `agree` state holder manipulated by the checkbox to the `disabled` property of the Button component. When `agree` is true, `disabled` should be false. the logical NOT operator ! is used with agree to get the logical complement (the opposite Boolean value) of `agree`.
 
+````js
+<Button
+disabled={!agree}
+variant="contained"
+color="primary"
+onClick={displayResults}/* displayResults is the function that determines the result from the user input */
+>
+Show me the result !
+</Button>
+````
 
+Now with our form in place, we will be moving to the final piece of the page, the result display.
 
 ![img_5.png](../assets/img/React/Forms-with-React-Hooks/img_5.png)
 
+The component is nothing more than text below the button, but it will have to display a different result for each different combination of answers according to the displayResults function. Sounds familiar? Yup, we will be tracking state here as well.
+
+First the state holder for the result, with the initial result set to nothing:
+
+````js
+const [result, setResult] = useState("");
+````
+
+Next, a [Typography](https://mui.com/components/typography/) component to show the result and update each time result changes.
+
+````js
+<Typography variant="h4">
+    {
+        result ? `It's the ${result}` : ``
+    }
+</Typography>
+````
+
+The ternary operator (`<variable> ? <if true> : <if false>`) used here says that if `result` is true, the sentence is shown, else an empty string is visible. The sentence itself is a template literal that displays the value stored inside `result` with `${result}`.
+
+When the submit button is clicked, the `displayResults` function is called, and it changes `result` each time, by calling `setResult` within `displayResults`.
+
+The `displayResults` function of this example is just a function that categorizes a user to a personality based on the scores chosen and can be replaced by any function that processes form data.
+
+Hope this example helped shed some light on React Hooks and how they are used in interactive web components.
+
+Happy coding!
