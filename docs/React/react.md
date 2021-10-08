@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # React
@@ -25,7 +25,7 @@ Intro to React : https://reactjs.org/tutorial/tutorial.html <br/>
 
 ## Create new react app
 
-Follow [this](node.md) instructions before run below command
+Follow [this](../node/node.md) instructions before run below command
 
 ```bash
 yarn create react-app myapp

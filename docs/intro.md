@@ -18,12 +18,12 @@ __If you _know_ HTML, Bootstrap, Js__
 
 <!-- < TEXT HERE > -->
 
-## 4. [React](./node/react.md) / [Angular](./node/angular.md)
+## 4. [React](React/react.md) / [Angular](./node/angular.md)
 
 <!-- ### TODO: Why React/Angular???
 
 < TEXT HERE > -->
-## 5. [Docker-Compose](./docker/docker-compose.md)
+## 5. [Docker](./docker/docker.md) / [Docker-Compose](./docker/docker-compose.md)
 
 __If you _don't know_ HTML, Bootstrap, Js__
 
