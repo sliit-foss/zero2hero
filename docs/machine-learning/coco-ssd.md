@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 **TensorFlow** is an end-to-end open source platform for machine learning.

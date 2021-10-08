@@ -13,10 +13,14 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <div className={`row ${styles.heroItemRow}`}>
-          <div className={`col justify-start align-start ${styles.heroInfoColumn}`}>
+          <div
+            className={`col justify-start align-start ${styles.heroInfoColumn}`}
+          >
             <div className={`${styles.heroTitle1}`}>ZERO</div>
             <div className={`${styles.heroTitle2}`}>2HERO</div>
-            <p className={`hero__subtitle text-left ${styles.heroDescrip}`}>{siteConfig.tagline}</p>
+            <p className={`hero__subtitle text-left ${styles.heroDescrip}`}>
+              {siteConfig.tagline}
+            </p>
             <div className={styles.buttons}>
               <Link
                 className={`button button--secondary button--lg ${styles.btnGetStarted}`}
@@ -26,7 +30,10 @@ function HomepageHeader() {
               </Link>
             </div>
           </div>
-          <img src="img/home/heroImage.svg" className={`${styles.heroImg}`}></img>
+          <img
+            src="img/home/heroImage.svg"
+            className={`${styles.heroImg}`}
+          ></img>
         </div>
       </div>
     </header>
@@ -35,12 +42,18 @@ function HomepageHeader() {
 
 function HomepageContact() {
   return (
-    <div className={`w-full flex justify-center align-center ${styles.contactCard}`}>
-      <div className={`container row justify-between align-center ${styles.contactRow}`}>
+    <div
+      className={`w-full flex justify-center align-center ${styles.contactCard}`}
+    >
+      <div
+        className={`container row justify-between align-center ${styles.contactRow}`}
+      >
         <div className={`text-left ${styles.txtContact}`}>
           Want to make an impact to the community?
         </div>
-        <div className={`${styles.btnContact}`}>Contact Us</div>
+        <Link to="https://sliitfoss.org/contact" target="_blank">
+          <div className={`${styles.btnContact}`}>Contact Us</div>
+        </Link>
       </div>
     </div>
   );
