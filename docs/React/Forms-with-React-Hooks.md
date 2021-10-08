@@ -210,5 +210,5 @@ The `displayResults` function of this example is just a function that categorize
 
 Hope this example helped shed some light on React Hooks and how they are used in interactive web components.
 
-Happy coding!
+Happy coding! 
 
