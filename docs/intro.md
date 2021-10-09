@@ -6,32 +6,22 @@ sidebar_position: 1
 
 ![movie-box-logo](assets/img/guide.png)
 
-## 1. [Git](./git/git.md)
+## 1. [HTML](https://www.w3schools.com/html/) / [Bootstrap 4](https://www.w3schools.com/bootstrap4/) / [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
 
-## 2. [VS Code](vscode)
+## 2. [Git](./git/git.md) / [VS Code](vscode)
 
-__If you _know_ HTML, Bootstrap, Js__
-
-## 3. [Node](./node/node.md)
+## 3. [Node](./node/node.md) / [React](React/react.md) / [Angular](./node/angular.md)
 
 <!-- ### TODO: What's node environment??? -->
+<!-- ### TODO: Why React/Angular???
 
 <!-- < TEXT HERE > -->
 
-## 4. [React](React/react.md) / [Angular](./node/angular.md)
-
-<!-- ### TODO: Why React/Angular???
-
-< TEXT HERE > -->
+## 4. [Express](./Express/express)
 
 ## 5. [Docker](./docker/docker.md) / [Docker-Compose](./docker/docker-compose.md)
 
-## 6. [Express](./Express/express)
 
-
-- [HTML Tutorial](https://www.w3schools.com/html/) <br/>
-- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) <br/>
-- [JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp) <br/>
 
 
 # Tutorial Intro
