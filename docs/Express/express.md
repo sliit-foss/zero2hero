@@ -27,7 +27,7 @@ You can find the official documentation for Express at the link below,
 
 ## Installing Express
 
-Installing Express, like any other node module, is exceptionally easy, but you do need
+Installing Express, like any other node module, is exceptionally easy but you do need
 Node.js pre-installed on your machine which is available to download at,
 
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
@@ -76,7 +76,8 @@ Creating an Express app is easy as writing 7 lines of code. Hard to believe? Wel
 see for yourself. To get started, we first need to create an index.js file in our root directory. The
 name of this file can be changed into anything, but it needs to match what is specified over
 here in your package.json file which by default, is set to index.js. This marks the entry point to
-our application and even though our app will continue to function without it, it is good practice keeping it defined.
+our application and even though our app will continue to function without it, it is good practice
+to keep it defined.
 
 ![img_2.png](../assets/img/Express/express/img_2.png)
 
