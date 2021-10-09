@@ -42,7 +42,7 @@ which we can continue to work on out project. Navigate to a directory of your ch
 execute the following commands in the terminal which will create a new folder called
 expressApp, or alternatively you could use the standard GUI.
 
-````shell
+````bash
 $ mkdir expressApp
 $ cd expressApp
 ````
@@ -64,7 +64,7 @@ $ npm install express –save
 
 Or install it temporarily without modifying your existing package.json file using,
 
-````shell
+````bash
 $ npm install express --no-save
 ````
 
@@ -145,7 +145,7 @@ app.listen(port, () => console.log(`Express app listening at http://localhost:${
 Finally, to spin up our brand-new server, we need to execute the following line in our
 terminal from the root directory of our project.
 
-````shell
+````bash
 $ node index.js
 ````
 
