@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started with Express
 
-![img.png](img.png)
+![img.png](../assets/img/Express/express/img.png)
 
 ### What we will be covering
 
@@ -35,7 +35,7 @@ Node.js pre-installed on your machine which is available to download at,
 Any version of it is fine, as long as it is above v 0.10.0 which
 is the minimum required to run Express.
 
-![img_1.png](img_1.png)
+![img_1.png](../assets/img/Express/express/img_1.png)
 
 Once node has been successfully installed, we will need to create a new directory from
 which we can continue to work on out project. Navigate to a directory of your choosing and
@@ -79,7 +79,7 @@ here in your package.json file which by default, is set to index.js. This marks 
 our application and even though our app will continue to function without it, it is good practice
 to keep it defined.
 
-![img_2.png](img_2.png)
+![img_2.png](../assets/img/Express/express/img_2.png)
 
 In your newly created index.js file, we initially need to import express which can be
 achieved through the following line of code.
@@ -98,11 +98,11 @@ const app = express()
 
 Next, we need to define a port on which our Express application will run. This can be
 anything between port 0 and 65536 assuming that it is not in use by something else, but as a
-normal most people prefer to use port 3000 while in development environments. Here we too
-will be using port 3000.
+normal most people prefer to use port 5000 while in development environments. Here we too
+will be using port 5000.
 
 ````js
-const port = 3000
+const port = 5000
 ````
 
 The next step is to define a route to our application, which is basically a path through
@@ -150,10 +150,10 @@ $ node index.js
 ````
 
 To see our server in action, open up your browser and navigate to
-[http://localhost:3000/](http://localhost:3000/) and voila, there you have the response from your very first Express
+[http://localhost:5000/](http://localhost:5000/) and voila, there you have the response from your very first Express
 server!
 
-![img_3.png](img_3.png)
+![img_3.png](../assets/img/Express/express/img_3.png)
 
 That marks the end of our very first Express tutorial. 
 
