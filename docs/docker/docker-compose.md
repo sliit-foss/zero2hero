@@ -1,7 +1,7 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
-## Writing a docker-compose file
+# Writing a docker-compose file
 **_To get code for this tutorial [click here](docker-compose-example.yml)_**
 
 Let’s create a file called “docker-compose.yml” at the root folder. As you can see, this is a YAML file, so the indentation is important. Let’s start writing our docker-compose file by setting the version:
