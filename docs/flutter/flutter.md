@@ -15,7 +15,7 @@ Chrome: https://flutter.dev/docs/get-started/install/chromeos> <br/>
 
 ## 2) Set up an editor
 
-There are two editors that you can use to start programming in Flutter)<br/>
+There are two editors that you can use to start programming in Flutter<br/>
 
-- Android Studio: <https://developer.android.com/studio> <br/>
-- VS Code: <https://code.visualstudio.com/> <br/>
+- [Android Studio](https://developer.android.com/studio)
+- [VS Code](https://code.visualstudio.com)
