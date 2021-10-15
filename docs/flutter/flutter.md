@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Flutter
 
+![By Clicking the link above download the .exe file](https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png)<br/>
+
 ## 1) Installation
 
 There are multiple ways to install Flutter on your system, it also depends on<br/>
@@ -41,4 +43,62 @@ in 2011 and was initially designed as a replacement for JavaScript.<br/>
 1. Open the IDE and select **Create New Flutter Project**
 2. Select **Flutter Application** as the project type. Then click **Next**.
 3. Verify the Flutter SDK path specifies the SDK’s location (select Install SDK… <be/>if the text field is blank).
-4. 
+4. Enter a project name (for example, ``myapp``). Then click Next.
+5. Click Finish.
+6. Wait for Android Studio to install the SDK and create the project.
+
+### Do the coding
+
+Open ``main.dart`` file from the lib folder. And replace the code with below:<br/>
+
+```
+import ‘package:flutter/material.dart’;
+
+ 
+void main() => runApp(MyApp());
+
+ 
+
+class MyApp extends StatelessWidget {
+
+  @override
+
+Widget build(BuildContext context) {
+
+return MaterialApp(
+
+      title: ‘Welcome to Flutter’,
+
+      home: Scaffold(
+
+        appBar: AppBar(
+
+          title: Text(‘Welcome to Flutter’),
+
+        ),
+
+        body: Center(
+
+          child: Text(‘Hello World’),
+
+        ),
+
+      ),
+
+    );
+
+  }
+
+}
+```
+
+### Run the code:
+
+![By Clicking the link above download the .exe file](https://flutter.dev/assets/images/docs/tools/android-studio/main-toolbar.png)<br/>
+
+As shown in the above image, from the Android Studio toolbar, click on the Target<br/> selector & select simulator / emulator. If none are listed as available, select Tools><br/> Android > AVD Manager and create one there.<br/>
+For details, see Managing AVDs.<br/>
+
+![By Clicking the link above download the .exe file](https://www.zealousweb.com/wp-content/uploads/2021/06/Screenshot_2.png)
+
+Here you are done with the very basic first application of the Flutter.<br/>
