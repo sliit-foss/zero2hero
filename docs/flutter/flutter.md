@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Flutter
 
-![By Clicking the link above download the .exe file](https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png)<br/>
+![Flutter](https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png)<br/>
 
 ## 1) Installation
 
@@ -101,4 +101,4 @@ For details, see Managing AVDs.<br/>
 
 ![By Clicking the link above download the .exe file](https://www.zealousweb.com/wp-content/uploads/2021/06/Screenshot_2.png)
 
-Here you are done with the very basic first application of the Flutter.<br/>
+Run the app in the way your IDE describes. You should see either Android, iOS, or web output, depending on your device.<br/>
