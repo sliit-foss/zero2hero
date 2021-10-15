@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Flutter
 
-![Flutter](https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png)<br/>
+![Flutter](https://raw.githubusercontent.com/iMeriem/zero2hero/addFlutterdoc/docs/assets/img/flutter/flutter-lockup.png)<br/>
 
 ## 1) Installation
 
@@ -94,11 +94,12 @@ return MaterialApp(
 
 ### Run the code:
 
-![By Clicking the link above download the .exe file](https://flutter.dev/assets/images/docs/tools/android-studio/main-toolbar.png)<br/>
+![By Clicking the link above download the .exe file](https://raw.githubusercontent.com/iMeriem/zero2hero/addFlutterdoc/docs/assets/img/flutter/Screenshot_1.png)<br/>
 
 As shown in the above image, from the Android Studio toolbar, click on the Target<br/> selector & select simulator / emulator. If none are listed as available, select Tools><br/> Android > AVD Manager and create one there.<br/>
 For details, see Managing AVDs.<br/>
 
-![By Clicking the link above download the .exe file](https://www.zealousweb.com/wp-content/uploads/2021/06/Screenshot_2.png)
+![By Clicking the link above download the .exe file](https://raw.githubusercontent.com/iMeriem/zero2hero/addFlutterdoc/docs/assets/img/flutter/Screenshot_2.png)
 
 Run the app in the way your IDE describes. You should see either Android, iOS, or web output, depending on your device.<br/>
+
