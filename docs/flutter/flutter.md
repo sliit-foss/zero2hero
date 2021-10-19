@@ -51,7 +51,7 @@ in 2011 and was initially designed as a replacement for JavaScript.<br/>
 
 Open ``main.dart`` file from the lib folder. And replace the code with below:<br/>
 
-```
+```dart
 import ‘package:flutter/material.dart’;
 
  
@@ -90,6 +90,7 @@ return MaterialApp(
   }
 
 }
+
 ```
 
 ### Run the code:
@@ -108,7 +109,7 @@ Flutter widgets are built using a modern framework that takes inspiration from R
 
 ## Hello world
 The minimal Flutter app simply calls the runApp() function with a widget:
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -140,7 +141,7 @@ Instead of being linearly oriented (either horizontally or vertically), a Stack 
 The Container widget lets you create a rectangular visual element. A container can be decorated with a BoxDecoration, such as a background, a border, or a shadow. A Container can also have margins, padding, and constraints applied to its size. In addition, a Container can be transformed in three dimensional space using a matrix.
 
 Below are some simple widgets that combine these and other widgets:
-```
+```dart
 import 'package:flutter/material.dart';
 
 class MyAppBar extends StatelessWidget {
@@ -224,9 +225,10 @@ void main() {
 ```
 Be sure to have a uses-material-design: true entry in the flutter section of your pubspec.yaml file. It allows you to use the predefined set of Material icons. It’s generally a good idea to include this line if you are using the Materials library.
 
-```
-name: my_app
-flutter:
+```dart
+
+  name: my_app
+  flutter:
   uses-material-design: true
 
 
@@ -240,7 +242,7 @@ The MyScaffold widget organizes its children in a vertical column. At the top of
 ## 6) Using Material Components
 
 Flutter provides a number of widgets that help you build apps that follow Material Design. A Material app starts with the MaterialApp widget, which builds a number of useful widgets at the root of your app, including a Navigator, which manages a stack of widgets identified by strings, also known as “routes”. The Navigator lets you transition smoothly between screens of your application. Using the MaterialApp widget is entirely optional but a good practice.
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -296,7 +298,7 @@ Notice that widgets are passed as arguments to other widgets. The Scaffold widge
 ## 7) Handling gestures
 Most applications include some form of user interaction with the system. The first step in building an interactive application is to detect input gestures. See how that works by creating a simple button:
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
@@ -345,7 +347,7 @@ So far, this page has used only stateless widgets. Stateless widgets receive arg
 
 In order to build more complex experiences—for example, to react in more interesting ways to user input—applications typically carry some state. Flutter uses StatefulWidgets to capture this idea. StatefulWidgets are special widgets that know how to generate State objects, which are then used to hold state. Consider this basic example, using the ElevatedButton mentioned earlier:
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class Counter extends StatefulWidget {
@@ -416,7 +418,7 @@ You might wonder why StatefulWidget and State are separate objects. In Flutter, 
 The example above accepts user input and directly uses the result in its build() method. In more complex applications, different parts of the widget hierarchy might be responsible for different concerns; for example, one widget might present a complex user interface with the goal of gathering specific information, such as a date or location, while another widget might use that information to change the overall presentation.
 
 In Flutter, change notifications flow “up” the widget hierarchy by way of callbacks, while current state flows “down” to the stateless widgets that do presentation. The common parent that redirects this flow is the State. The following slightly more complex example shows how this works in practice:
-```
+```dart
 import 'package:flutter/material.dart';
 
 class CounterDisplay extends StatelessWidget {
@@ -491,7 +493,7 @@ Notice the creation of two new stateless widgets, cleanly separating the concern
 ## 9) Bringing it all together
 
 What follows is a more complete example that brings together these concepts: A hypothetical shopping application displays various products offered for sale, and maintains a shopping cart for intended purchases. Start by defining the presentation class, ShoppingListItem:
-```
+```dart
 import 'package:flutter/material.dart';
 
 class Product {
@@ -572,7 +574,7 @@ When the parent receives the onCartChanged callback, the parent updates its inte
 
 Here’s an example parent widget that stores mutable state:
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class Product {
