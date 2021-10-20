@@ -68,3 +68,7 @@ You can use templates to quickly set up a new project board. When you use a temp
 | Bug triage | Triage and prioritize bugs with To do, High priority, Low priority, and Closed columns |
 
 For more information on automation for project boards, see ["About automation for project boards."](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-automation-for-project-boards)
+
+![Project basic template kanban](https://raw.githubusercontent.com/iMeriem/zero2hero/addgitboard/docs/assets/img/gitboard/project-board-basic-kanban-template.png)
+
+You can also copy a project board to reuse its customizations for similar projects. For more information, see ["Copying a project board."](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/copying-a-project-board)
