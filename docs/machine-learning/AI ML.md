@@ -70,12 +70,3 @@ If a network has at least 3 layer including input and output layers then it can 
 ![img_4.png](../assets/img/machine-learning/ML%20vs%20AI/img_4.png)
 
 In next articles let's take each one of these and discuss.
-
-
-
-
-
-
-
-
-
