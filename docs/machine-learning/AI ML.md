@@ -30,7 +30,7 @@ For another example if we take Pac-Man Game the ghost are trying to catch the pl
 ![img_1.png](../assets/img/machine-learning/MLvsAI/img_1.png)
 
 
-## Machine Learning§
+## Machine Learning
 
 Simply what machine learning to do is it uses data and algorithms to imitate the human actions or processes in a way that human learns and gradually improving accuracy.
 
