@@ -226,6 +226,7 @@ Sync your app to ensure that all dependencies have the necessary versions.
 
 That's it! You can skip ahead to check out the recommended next steps.
 
+
 If you're having trouble getting set up, though, visit the Android troubleshooting & FAQ.
 
 
@@ -327,9 +328,9 @@ Binary Firebase dependencies are integrated as static frameworks by default. If 
 Install the pods, then open your .xcworkspace file to see the project in Xcode:
 
 ```java
-pod install
+$ pod install
 
-open your-project.xcworkspace
+$ open your-project.xcworkspace
 ```
 #### Step 5: Initialize Firebase in your app
 The final step is to add initialization code to your application. You may have already done this as part of adding Firebase to your app. If you're using a quickstart sample project, this has been done for you.
@@ -352,3 +353,5 @@ If you've included Firebase Analytics, you can run your app to send verification
 That's it! You can skip ahead to the next steps.
 
 If you're having trouble getting set up, though, visit the Apple platforms troubleshooting & FAQ.
+
+
