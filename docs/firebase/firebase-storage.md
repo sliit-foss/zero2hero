@@ -354,6 +354,7 @@ That's it! You can skip ahead to the next steps.
 
 If you're having trouble getting set up, though, visit the Apple platforms troubleshooting & FAQ.
 
+
 ### Add Firebase to your JavaScript/Web project
 
 #### Prerequisites
@@ -431,4 +432,3 @@ See our guide Using module bundlers with Firebase for more information.
 ####Available Firebase services for web
 Now that you're setup to use Firebase, you can start adding and using any of the following available Firebase services in your web app.
 
-The following commands show how to import Firebase libraries installed locally with npm. See the Available Libraries page for alternative importation options.
