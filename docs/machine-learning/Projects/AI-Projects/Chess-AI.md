@@ -36,8 +36,7 @@ but you still need them to get output + we will use them later.
 
 Now if you open the index.html You can see something like this.
 
-![](../../../assets/img/machine-learning/Projects/Chess-AI/img.png)
-
+![](../../../assets/img/machine-learning/Projects/Chess-AI/img_1.png)
 
 Now We can use ```config``` to do the configurations.
 
@@ -202,9 +201,9 @@ Centipawn is the unit of measure used in chess as measure of the advantage. A ce
 
 # Developing AI algorithm for Play Chess
 
-![img.png](img.png)
-
 Minimax Function Algorithm
+
+![](../../../assets/img/machine-learning/Projects/Chess-AI/img_2.png)
 
 ```js
 function minimax (position, depth, maximizingPlayer) {
