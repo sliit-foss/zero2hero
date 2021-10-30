@@ -137,3 +137,16 @@ app.listen(3000)
 
 ## Conclusion: 
 NoSQL is a non-social DMS, that doesn't need a proper blueprint, stays away from joins, and is not difficult to scale. The idea of NoSQL information bases become well known with Internet goliaths like Google, Facebook, Amazon, and so on who manage immense volumes of information. NoSQL offers restricted question abilities. The expression "possible consistency" signifies to have duplicates of information on various machines to get high accessibility and adaptability. The BASE represents Basically Available, Soft state, Eventual consistency.
+
+
+## Access and Security
+There are two ways to access the KVStore and its data.
+
+For routine access to the data, use Java APIs that application developers use to allow applications to interact with the Oracle NoSQL Database Driver. The drive communicates with the store's Storage Nodes to perform whatever data access the developer application requires.
+
+For administrative access to the store, use the command line interface (CLI). System administrators use this interface to perform any actions that are required by Oracle NoSQL Database. You can also monitor the store using the CLI interface.
+
+For most production stores, authentication over SSL is normally required by both the command line interface and the Java APIs. While you can install a store that does not require authentication, this is not recommended. For details on Oracle NoSQL Database's security features, see the Security Guide .
+
+Note:
+Oracle NoSQL Database is intended to be installed in a secure location where physical and network access to the store is restricted to trusted users. For this reason, at this time Oracle NoSQL Database's security model is designed to prevent accidental access to the data. It is not designed to prevent denial-of-service attacks.
