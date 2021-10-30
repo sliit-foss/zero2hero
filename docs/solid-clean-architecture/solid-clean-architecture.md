@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # SOLID architecture
 
 SOLID principles determine how functions and data structures are organized in classes and how these classes relate to each other.
