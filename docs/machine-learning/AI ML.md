@@ -70,3 +70,31 @@ If a network has at least 3 layer including input and output layers then it can 
 ![img_4.png](../assets/img/machine-learning/MLvsAI/img_4.png)
 
 In next articles let's take each one of these and discuss.
+
+
+## What is Azure Machine Learning?
+Azure Machine Learning is a cloud service for accelerating and managing the machine learning project lifecycle. Machine learning professionals, data scientists, and engineers can use it in their day-to-day workflows: Train and deploy models, and manage MLOps.
+
+You can create a model in Azure Machine Learning or use a model built from an open-source platform, such as Pytorch, TensorFlow, or scikit-learn. MLOps tools help you monitor, retrain, and redeploy models.
+
+## Who is Azure Machine Learning for?
+Azure Machine Learning is for individuals and teams implementing MLOps within their organization to bring machine learning models into production in a secure and auditable production environment.
+
+Data scientists and ML engineers will find tools to accelerate and automate their day-to-day workflows. Application developers will find tools for integrating models into applications or services. Platform developers will find a robust set of tools, backed by durable Azure Resource Manager APIs, for building advanced ML tooling.
+
+Enterprises working in the Microsoft Azure cloud will find familiar security and role-based access control (RBAC) for infrastructure. You can set up a project to deny access to protected data and select operations.
+
+##Collaboration for machine learning teams
+
+Machine learning projects often require a team with varied skillsets to build and maintain. Azure Machine Learning has tools that help enable collaboration, such as:
+
+Shared notebooks, compute resources, data, and environments
+Tracking and auditability that shows who made changes and when
+Asset versioning
+
+##Tools for developers
+Developers find familiar interfaces in Azure Machine Learning, such as:
+
+Python SDK
+Azure Resource Manager REST APIs (preview)
+CLI v2 (preview)
