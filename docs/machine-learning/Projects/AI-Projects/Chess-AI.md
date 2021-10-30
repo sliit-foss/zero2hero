@@ -278,4 +278,93 @@ Evaluation
 - [https://chess.fandom.com/wiki/Centipawn](https://chess.fandom.com/wiki/Centipawn)
 
 
+Rest is in under construction but you can easily look the codes through checking commits in my repo.
+
+[https://github.com/timnirmal/Chess-AI](https://github.com/timnirmal/Chess-AI)
+
+
+## Only let legal moves
+
+<details>
+    <summary>Code Changes</summary>
+
+index.html
+    
+`````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="board" class="board"></div>
+
+<button id="startPositionBtn">Start Position</button>
+<button id="ruyLopezBtn">Ruy Lopez</button>
+
+<script src="chessboardjs/jquery/jquery-3.2.1.min.js"></script>
+<script src="chessboardjs/js/chess.js"></script>
+<script src="chessboardjs/js/chessboard-0.3.0.js"></script>
+<script src="script.js"></script>
+
+<script>
+    $('#startPositionBtn').on('click', board.start)
+
+    $('#ruyLopezBtn').on('click', function () {
+        var ruyLopez = 'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R'
+        board.position(ruyLopez)
+    })
+</script>
+
+</body>
+</html>
+`````
+
+style.css
+
+````css
+#board {
+    width: 600px;
+    height: 600px;
+}
+````
+
+script.js
+
+````js
+var board;
+
+var onDragStart = function (source, piece, position, orientation) {
+
+};
+
+var onDrop = function (source, target) {
+
+};
+
+var onSnapEnd = function () {
+
+};
+
+var onMouseoverSquare = function(square, piece) {
+
+};
+
+var onMouseoutSquare = function(square, piece) {
+
+};
+
+var config = {
+    position: 'start',
+    draggable: true,
+};
+
+board = ChessBoard('board', config);
+````
+
+</details>
+
 
