@@ -1,0 +1,76 @@
+# Deploy Applications on AWS Elastic Bean Stalk
+
+![](RackMultipart20211030-4-1n0e3rp_html_eddbb2ee7cf6467f.png)
+
+**The Core Characteristics of AWS Elastic Beanstalk**
+
+AWS Elastic Beanstalk comprises the processes and operations associated with the deployment and scaling of web programs in the cloud.
+
+Elastic Beanstalk automates the deployment by bringing forward the appropriate capacity, load balancing, auto scaling, and software efficiency and performance monitoring. All that remains for a developer to do is put the code into action. In these circumstances, the application owner has complete control over the AWS capacity allocated to the software and can use it at any time.
+
+Below are some of its configuration specifics:
+
+- Supports Apache, Passenger, Internet Information Services (IIS) and Nginx servers and [Java](https://www.sam-solutions.com/services/technologies/java/), PHP, [.NET](https://www.sam-solutions.com/services/technologies/dot_net/), Python, Go and Ruby programming languages
+- Supports a Puma or a Passenger app stacks for Rails
+- Configures an SQL server via Amazon RDS
+- Cloud Watch-based server monitoring
+- AWS CLI-based deployment of new versions
+
+Elastic Beanstalk deployment necessitates the definition of several components, including a &quot;application,&quot; a &quot;version,&quot; a &quot;configuration template,&quot; and a &quot;environment.&quot; A configuration template comprises configuration-related information for the program and the Elastic Beanstalk environment. An application is a project&#39;s logical container, a version is its deployable built, and a version is its deployable built. In terms of the environment, it combines a configuration and a version and delivers the two.
+
+**Reasons to Deploy Apps in Elastic Beanstalk**
+
+Elastic Beanstalk has many advantages that help enterprises increase their productivity. It was created to make deployment to AWS easier. They are as follows:
+
+Configure the server quickly. Elastic Beanstalk&#39;s automation allows businesses to launch a web service in a matter of minutes. Users just upload their code and, in less than an hour, have a fully functional web service while the service handles the setup, configuration, and delivery of other AWS services.
+
+Developers save a lot of time this way since they don&#39;t have to deal with all of the many components and procedures that go into creating a web app. Elastic Beanstalk is responsible for database setup, Linux package installation, Load Balancer configuration, and a variety of other tasks. It also helps developers avoid problems by ensuring that everything has been taken into account by the vendor and that nothing has been overlooked.
+
+Flexibility and customization options abound. As an AWS service, Elastic Beanstalk allows developers to keep things beneath the radar. It also allows for simple updates and changes. Users can also customize the size of their instances and the number of front-end servers, allowing them to match load and server requirements.
+
+On a no-cost basis. If a company already utilizes AWS, it will only be paid for the AWS resources that enable storage and application execution, with the rest of the functionality being free. Elastic Beanstalk&#39;s built-in autoscaling allows you to save money by adding more servers.
+
+Security has been improved. Elastic Beanstalk also benefits from Amazon Web Services&#39; increased security policies. The peculiarity of server configuration, for example, allows servers to communicate only when necessary, although a developer may find this modification to be extremely difficult to make manually.
+
+Unfortunately, there are some drawbacks to this service: more deployment dependability, as well as more openness and better documentation, would be beneficial.
+
+**Deployment Considerations**
+
+The fact that companies deploy applications with AWS Elastic Beanstalk for further use in the cloud makes them consider and follow specific conditions to ensure powerful performance and high reliability of workloads.
+
+**Scalability**
+
+Scalability is a must-have for a successful cloud architecture, whether it&#39;s scaling in or scaling out. Companies can achieve this by taking use of cloud elasticity, which allows them to quickly acquire and release resources based on their needs.
+
+Elastic Beanstalk takes advantage of cloud elasticity by automatically scaling up or down in response to a specific situation depending on resource measurements from your environment if correctly set. Companies can use auto scaling to adjust capacity in response to fluctuations in consumption.
+
+When possible, applications deployed by Elastic Beanstalk should be stateless and based on loosely coupled resilient components that support easy scaling out.
+
+**Fault Tolerance**
+
+When developing software for cloud deployment, the objective is to anticipate potential outages and anomalies and build an app that can resist them. As a result, developers should constantly consider automatic failover while designing, implementing, and deploying software.
+
+To enable it, leverage Availability Zones for Amazon RDS and Amazon EC2 instances, as well as Amazon CloudWatch for enhanced visibility into software performance metrics and the ability to react to potential anomalies. Additionally, certain auto-scaling options allow Amazon EC2 to keep a predetermined number of instances in order to replace defective ones with healthy ones. Another essential feature that allows Amazon RDS to protect against data loss is regular automated backups.
+
+**Connectivity**
+
+To ensure faultless deployments, Elastic Beanstalk requires proper connectivity with instances in the environment. Depending on the type of Amazon VPC environment, the configuration should be as follows:
+
+- Single-instance environments: no additional configuration is necessary because Elastic Beanstalk assigns each instance a public IP address that allows them to directly connect to the Internet.
+- Additional configuration is not necessary in load-balancing, auto-scaling environments with a single public subnet because all instances are assigned a public IP address for Internet access.
+- Environments with public and private subnets for load balancing and auto-scaling:
+
+1. Make a load balancer in the public subnet to route downstream traffic from the Internet to instances
+2. Create a net address translation device to route upstream traffic from instances to the Internet
+3. Develop downstream and upstream routing rules for instances that are within the private subnet
+4. Set security groups for the net address translation device and other instances, which enables Internet communication
+
+**Security**
+
+While AWS is in charge of the security of the physical facilities that make up the environments, corporations are in responsibility of data quality and security first and foremost. As a result, enterprises require adequate SSL configuration to protect data that their applications communicate with clients.
+
+It enables data transmission between the Elastic load balancer and clients to be secured, while traffic between instances and the load balancer is not encrypted by default.
+
+**Persistent Storage**
+
+Due to their specifics, Amazon EC2 instances do not have persistent local storages, which is why they are not saved in the file system after their termination, and new instances start by default. To avoid this, businesses need to create their applications in such a manner that they can store data in persistent storages, which AWS provides in a great number.
