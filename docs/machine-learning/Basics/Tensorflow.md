@@ -54,8 +54,31 @@ If you familiar with numpy tesnor are like np.array (numpy array)
 
 Tensors are ranked base on the shape.
 
-scalar or rank-0 tensor . A scalar contains a single value, and no axes".
-A vector or rank-1 tensor is like a list of values.
-A matrix or rank-2 tensor has two axes
+- scalar or rank-0 tensor . A scalar contains a single value, and no axes
+- A vector or rank-1 tensor is like a list of values.
+- A matrix or rank-2 tensor has two axes
 
 ![](../../assets/img/machine-learning/Basics/img_8.png)
+
+
+## Code Tensors
+
+First we need to import tf and np
+`````py
+# Tensors
+
+import tensorflow as tf
+import numpy as np
+`````
+
+### Rank 0 / Scale Tensor
+`````py
+rank0_tensor = tf.constant(4)
+print(rank0_tensor)
+`````
+
+This will output `tf.Tensor(4, shape=(), dtype=int32)`
+
+So you can see that its type is int32. So its simply a scaler and shape is () (like point)
+
+### Rank 1 / Vector
