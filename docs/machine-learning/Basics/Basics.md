@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 
 
 Different type of machine learning
@@ -80,3 +83,55 @@ Unsupervised learning can be used for,
 Common Algorithms and techniques used in Supervised and Unsupervised learning.
 
 ![](../../assets/img/machine-learning/Basics/img.png)
+
+## Reintegration learning
+
+Reinforcement learning is the process of using a machine learning model to learn from experience.
+So it doesn't have any input or output data, it just gives the model some reward or punishment.
+
+![](../../assets/img/machine-learning/Basics/img_3.png)
+
+Agent : The actor operated within the environment : The world which agent can operate
+Action : The actions' agent can take
+Reward and Observation: What agent receive and what agent can observe after that
+
+In reinforcement learning, machine learning model face a game like situation. 
+So it trys different actions (trial and error) to solve the problem and try to 
+maximize the rewards. When it does that it will get some reward or punishment.
+
+If the action helps to achieve the goal then it is rewarded if not it is vanished.
+
+As the designer of the module we only give the set of reward policies. The rules for how to play the 
+game (maximize rewards) is made by the machine learning model itself.
+
+To get accurate result machine learning model will play this again and 
+again and find new ways to get reward more efficiently.
+
+Common Reinforcement learning Algorithms are:
+- Q-learning
+- Deep Q-learning
+- SARSA (State-Action-Reward-State-Action)
+
+Applications of Reinforcement learning:
+- Autonomous Driving
+- Simulated Training of Robots
+- Play games like chess, checkers.
+- Reinforcement learning can be used to improve the performance of a machine learning model.
+- AlphaGoZero ([https://deepmind.com/blog/article/alphago-zero-starting-scratch](https://deepmind.com/blog/article/alphago-zero-starting-scratch))
+
+![](../../assets/img/machine-learning/Basics/img_4.png)
+
+- Running Man
+In this project they build this man from scratch giving the data about how the bones works.
+His task was to find a way to run. So he trys move from some random moves and later figure out way to jump.
+
+![](../../assets/img/machine-learning/Basics/img_5.png)
+
+But his goal was not to jump. So they did some adjustments and give him the idea about moving his legs separately.
+
+So after more and more trials he able do this.
+
+![](../../assets/img/machine-learning/Basics/img_6.png)
+
+
+Sound fun right. But why not we create some by our own. In next articles let's see how we can do similar small projects.
